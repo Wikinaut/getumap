@@ -8,3 +8,5 @@ npm install q
 
 
 Run as ```node index.js```
+
+wget https://yourserver:8000/mapid
