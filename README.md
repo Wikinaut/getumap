@@ -2,11 +2,13 @@
 
 Required npm packages:
 
-npm install lodash
-npm install superagent
-npm install q
+npm install 
+- express
+- lodash
+- superagent
+- q
 
 
 Run as ```node index.js```
 
-wget https://yourserver:8000/mapid
+Download an umap: ```wget https://yourserver:8000/mapid```
