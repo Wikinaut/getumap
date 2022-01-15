@@ -1,6 +1,6 @@
-Node server script to facilitate the download of an umap.
+Node server script to download of an umap.
 
-Fixes https://github.com/umap-project/umap/issues/78#issuecomment-127049535 .
+Fixes https://github.com/umap-project/umap/issues/78#issuecomment-127049535 . Written by/based on code by https://github.com/evanvosberg
 
 `downloadumap.js` is intended to be run as route registered in an express.js server.
 
