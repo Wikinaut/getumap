@@ -129,6 +129,7 @@ const umap = {
         let map;
 
         map = _.pick(data, ['geometry']);
+        map.type = 'umap';
         map.properties = _.pick(data.properties, ['easing', 'embedControl', 'fullscreenControl', 'searchControl', 'datalayersControl', 'zoomControl', 'slideshow', 'captionBar', 'limitBounds', 'tilelayer', 'licence', 'description', 'name', 'displayPopupFooter', 'miniMap', 'moreControl', 'scaleControl', 'scrollWheelZoom', 'zoom', 'layers']);
 
         // Normalize layers
